@@ -23,13 +23,13 @@ module.exports = new EntitySchema({
   relations: {
     student: {
       type: "many-to-one",
-      target: "STUDENT",
+      target: "Student",
       joinColumn: { name: "student_id" },
       nullable: false,
     },
     subject: {
       type: "many-to-one",
-      target: "SUBJECT",
+      target: "Subject",
       joinColumn: { name: "subject_id" },
       nullable: false,
     },
