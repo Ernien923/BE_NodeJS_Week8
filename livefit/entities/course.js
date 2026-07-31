@@ -49,12 +49,12 @@ module.exports = new EntitySchema({
   relations: {
     user: {
       type: "many-to-one",
-      target: "USER",
+      target: "User",
       joinColumn: { name: "user_id" },
     },
     skill: {
       type: "many-to-one",
-      target: "SKILL",
+      target: "Skill",
       joinColumn: { name: "skill_id" },
     },
   },
