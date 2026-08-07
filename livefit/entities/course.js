@@ -36,7 +36,7 @@ module.exports = new EntitySchema({
     },
     updated_at: {
       type: "timestamp",
-      createDate: true,
+      updateDate: true,
     },
 
     // 加上會議連結新欄位

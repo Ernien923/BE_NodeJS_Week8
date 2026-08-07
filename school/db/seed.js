@@ -45,8 +45,8 @@ async function main() {
   ]);
 
   // 2. SUBJECT 種資料
-  const subectRepo = dataSource.getRepository("Subject");
-  const [subject1, subject2] = await subectRepo.save([
+  const subjectRepo = dataSource.getRepository("Subject");
+  const [subject1, subject2] = await subjectRepo.save([
     { name: "數學" },
     { name: "英文" },
   ]);
